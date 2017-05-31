@@ -1,0 +1,26 @@
+Id	LibraryName	UserInputPattern	SystemMessage	PatternAtt	Type	Owner
+1	UserGreetingState	Good afternoon		[MotivationState]	UserGreeting.General	User
+2	UserGreetingState	Good Anoon		[MotivationState]	UserGreeting.General	User
+3	UserGreetingState	Good Day		[MotivationState]	UserGreeting.General	User
+4	UserGreetingState	Good Eve		[MotivationState]	UserGreeting.General	User
+5	UserGreetingState	Good evening		[MotivationState]	UserGreeting.General	User
+6	UserGreetingState	Good Morn		[MotivationState]	UserGreeting.General	User
+7	UserGreetingState	Good morning		[MotivationState]	UserGreeting.General	User
+8	UserGreetingState	Greetings		[MotivationState]	UserGreeting.General	User
+9	UserGreetingState	Hallo		[MotivationState]	UserGreeting.General	User
+10	UserGreetingState	Hello		[MotivationState]	UserGreeting.General	User
+11	UserGreetingState	Hey		[MotivationState]	UserGreeting.General	User
+12	UserGreetingState	Hi		[MotivationState]	UserGreeting.General	User
+13	UserGreetingState	Hi!		[MotivationState]	UserGreeting.General	User
+14	UserGreetingState	Hiya		[MotivationState]	UserGreeting.General	User
+15	UserGreetingState	Howdy		[MotivationState]	UserGreeting.General	User
+16	UserGreetingState	Yo!		[MotivationState]	UserGreeting.General	User
+17	UserGreetingState	Nice to see you		[MotivationState]	UserGreeting.General	User
+6442	HelpState	Please  Help	Tell me what can  I help you to find.  E.g. You can ask me about suite of ORACLE CLOUD services. 		Help.Help	User
+6443	HelpState	I need help	Ok. Tell me what can  I help you to find.  E.g. You can ask me about suite of ORACLE CLOUD services		Help.Help	User
+6444	HelpState	Help	 Ok. Tell me what can  I help you to find.  E.g. "You can ask me about suite of ORACLE CLOUD services". 		Help.Help	User
+6445	HelpState	How do I use you	You can start with a simple search by products. E.g. "Find Cloud management services". We'll go from there. 		Help.Help	User
+6446	HelpState	What is Oracle Cloud	Oracle Cloud is an enterprise cloud for businesses.It offers self-service business applications delivered on an integrated development and deployment platform. https://docs.oracle.com/en/cloud/get-started/subscriptions-cloud/csgsg/oracle-cloud.html has more details		Help.Help	User
+6478	HelpState	Did not show correct results	Sorry about that. Give me another search query and let's try again!		Help.NegativeExpression.1st	User
+6555	SystemGreetingState		Hi #UserName, welcome to IaaSiMov. I am your personal assistent to sift through Oracle suite of Products . The more I get to know your preferences, the better I get.	First Time User, upon initial log-in	SystemGreeting.FirstTimeUser	System
+6560	SystemGreetingState		Hey #UserName, Welcome back 	Returned users. 1st interaction of the day	SystemGreeting.General	System

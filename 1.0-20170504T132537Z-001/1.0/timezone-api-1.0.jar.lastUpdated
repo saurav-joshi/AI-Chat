@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Feb 13 15:39:49 SGT 2017
+http\://jenkins.tastebots.com\:8081/nexus/content/repositories/thirdparty/.lastUpdated=1486971589308
+https\://repo.spring.io/libs-release/.error=
+https\://repo.spring.io/libs-release/.lastUpdated=1486971587454
+https\://raw.github.com/wanasit/chrono-java/mvn-repo/.lastUpdated=1486971588509
+http\://repository.codehaus.org/org/codehaus/.error=Could not transfer artifact gapchenko.llttz\:timezone-api\:jar\:1.0 from/to codehaus (http\://repository.codehaus.org/org/codehaus)\: repository.codehaus.org\: Name or service not known
+https\://raw.github.com/wanasit/chrono-java/mvn-repo/.error=
+@default-codehaus-http\://repository.codehaus.org/org/codehaus/.lastUpdated=1486971588594

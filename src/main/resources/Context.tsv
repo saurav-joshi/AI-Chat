@@ -1,0 +1,50 @@
+Id	Context Name	Rule
+1	#Location	in $Location
+2	#Location	on $Location
+3	#Location	near $Location
+4	#Location	within $Location
+5	#Location	along $Location
+6	#Location	close to $Location
+7	#Location	at $Location
+8	#Location	around $Location
+9	#Location	next to $Location
+10	#Location	across $Location
+11	#Location	to $Location
+12	#Cuisine	$Country
+13	#Cuisine	$Country Cuisine
+14	#Cuisine	$Country dish
+15	#Cuisine	$Country fare
+16	#Cuisine	$Country food
+17	#Cuisine	$Country place
+18	#Cuisine	$Country restaurant
+19	#Cuisine	$Nationality
+20	#Cuisine	$Nationality Cuisine
+21	#Cuisine	$Nationality dish
+22	#Cuisine	$Nationality fare
+23	#Cuisine	$Nationality food
+24	#Cuisine	$Nationality place
+25	#Cuisine	$Nationality restaurant
+26	#Cuisine	$Regional
+27	#Cuisine	$Regional Cuisine
+28	#Cuisine	$Regional dish
+29	#Cuisine	$Regional fare
+30	#Cuisine	$Regional food
+31	#Cuisine	$Regional place
+32	#Cuisine	$Regional restaurant
+33	#RestaurantEntity	$Dish
+34	#RestaurantEntity	#Cuisine
+35	#RestaurantEntity	$MealType
+36	#RestaurantEntity	$RestaurantFeature
+37	#RestaurantEntity	$Ingredient
+38	#RestaurantEntity	$Religious
+39	#RestaurantEntity	$Event
+40	#RestaurantEntity	$Beverage
+41	#RestaurantEntity	$EstablishmentType
+42	#RestaurantEntity	$Chef
+43	#RestaurantEntity	$CookingMethod
+44	#RestaurantEntity	$RestaurantName
+45	#RestaurantEntity	$Offer
+46	#RestaurantEntity	$PriceRange
+47	#RestaurantEntity	$Location
+48	#RestaurantEntity	#Location
+49	#RestaurantEntity	$Accolade
