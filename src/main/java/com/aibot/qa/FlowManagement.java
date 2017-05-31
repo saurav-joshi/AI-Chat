@@ -44,7 +44,7 @@ public class FlowManagement {
     private static void createStates() {
         for (State.StateType type : State.StateType.values()) {
             try {
-                Class<?> clazz = Class.forName("com.oracle.iaasimov.state." + type.name());
+                Class<?> clazz = Class.forName("com.aibot.state." + type.name());
                 State state = (State) clazz.getConstructor().newInstance();
                 state.setStateType();
                 state.allowedInputStateTypes();
